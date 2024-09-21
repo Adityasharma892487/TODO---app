@@ -1,0 +1,60 @@
+@media only screen and (max-width: 640px) {
+    h2 img {
+      width: 8vw;
+    }
+  
+    .container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .todo-app {
+      height:auto;
+      width:70%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin: 0;
+      padding: 10px 20px;
+    }
+  
+  
+    .row input {
+      width: 100%;
+      font-size: 3vw;
+      padding-left: 0px;
+    }
+  
+    
+    .row button {
+      font-size: 10px;
+      padding: 10px 15px;
+    }
+  
+    ul li {
+      margin-left: -15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+  
+    h2 img {
+      width: 10px;
+      margin-left: 5px;
+    }
+     
+    #list-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-wrap: wrap;
+    }
+  
+  }
+  
